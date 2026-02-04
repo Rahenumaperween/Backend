@@ -24,10 +24,10 @@ public class Project {
 	private String title;
 	@Column(length=2000)
 	private String description;
+	 private String techStack;
 	private String thumbnail_url;
 	private String live_demo_url;
 	private String source_code_url;
-	private long client_id;
 	private LocalDateTime created_at;
 	
 	// Many projects belong to One client
